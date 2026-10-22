@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-默认配置。
-
-首次加载插件（或删掉 config.json 后重载）会自动生成：
-    config/leave_reason/config.json
-
-生成出来的 config.json 里自带以 "_" 开头的中文说明字段，这些说明会被插件忽略，
-只是方便你在配置文件里直接看懂每一项是干什么的。
-"""
+"""默认配置，首次加载时生成到 config/leave_reason/config.json。"""
 
 # 配置版本号：插件升级时用来判断旧配置要不要备份，请勿修改
 CONFIG_VERSION = 2
