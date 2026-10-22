@@ -1,5 +1,7 @@
 # LeaveReason（退出原因）—— 玩家异常退出原因检测
 
+> 🌟 **AZ 生电服同款插件**，欢迎加入 AZ 生电服 QQ 审核群：`1101978932`
+
 一个 [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) 插件，通过解析服务端控制台日志，
 检测玩家的异常退出原因，并在**公屏（聊天栏）**广播原因。
 
@@ -98,3 +100,9 @@
 2. 如果 MeowtiWhitelist 的拦截不是原版 `not white-listed`，而是插件自己踢人（日志为
    `<玩家> lost connection: <自定义文案>`），把那段自定义文案的关键词加进 `keywords.whitelist`。
 3. 正常的客户端断开（`Disconnected`）默认在 `keywords.ignore` 里被忽略，不会刷屏；需要检测就删掉它。
+
+## 问题反馈
+
+使用中遇到问题或想提建议，欢迎加 QQ：`2683654412` 反馈。
+
+> 本插件为 AZ 生电服同款插件，更多玩法欢迎加入 AZ 生电服 QQ 审核群：`1101978932`。
