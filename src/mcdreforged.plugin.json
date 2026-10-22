@@ -1,0 +1,17 @@
+{
+    "id": "leave_reason",
+    "version": "1.3.0",
+    "name": "LeaveReason",
+    "description": {
+        "en_us": "Detect abnormal player disconnections (kick, timeout, ban, not whitelisted) and broadcast the reason to chat",
+        "zh_cn": "检测玩家异常退出（被踢、连接超时、被封禁、不在白名单）并在公屏广播原因"
+    },
+    "author": [
+        "assisted"
+    ],
+    "link": "https://github.com/",
+    "dependencies": {
+        "mcdreforged": ">=2.0.0"
+    },
+    "entrypoint": "leave_reason"
+}

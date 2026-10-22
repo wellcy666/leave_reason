@@ -1,0 +1,7 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# MCDR 打包备份（.bak 是旧版本备份，不入库）
+*.mcdr.bak
